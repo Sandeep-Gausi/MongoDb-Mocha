@@ -1,0 +1,26 @@
+{
+  "name": "mongodb-mocha",
+  "version": "1.0.0",
+  "description": "1. Excute npm init \r 2. Install mongoose -  npm install mongoose@5.7.4 --save\r 3. Install mocha - npm install mocha@6.2.1 --save \r 4. Start Testing - npm run test",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sandeep-Gausi/MongoDb-Mocha.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sandeep-Gausi/MongoDb-Mocha/issues"
+  },
+  "homepage": "https://github.com/Sandeep-Gausi/MongoDb-Mocha#readme",
+  "dependencies": {
+    "mocha": "^6.2.1",
+    "mongoose": "^5.7.4"
+  }
+}
